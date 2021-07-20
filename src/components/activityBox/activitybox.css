@@ -1,0 +1,102 @@
+.activityBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 250px;
+    max-height: 300px;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    margin: 5px;
+}
+
+.activityBox.completed{
+background-color: #90ee90;
+}
+
+.activityBox.incomplete{
+background-color: #FF7F7F;
+}
+
+.activityItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.activityTitle{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.activityCreated, .activityDue{
+    font-size: 12px;
+}
+
+.activityDue{
+    padding-bottom: 15px;
+}
+
+.activityGoal{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom:10px;
+    width: 220px;
+}
+
+.activityGoalFullText{
+    padding: 4px;
+    border: 1px solid #333;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.15);
+    font-size: 12px;
+}
+
+.activityGoalFullText:hover{
+    font-weight: bold;
+}
+
+.activityCheckMark{
+    display: flex;
+    justify-content: space-around;
+}
+
+.activityCheckMark{
+    margin-top: 10px;
+}
+
+.checkMark{
+    padding: 4px;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+
+.completed{
+    background-color:greenyellow ;
+}
+
+.Edit{
+    background-color:slateblue ;
+}
+
+.incomplete{
+    background-color:salmon ;
+}
+
+.checkMark.completed:hover{
+    color:white;
+    background-color: #90ee90;
+}
+
+.checkMark.incomplete:hover{
+    color: white;
+    background-color: #FF7F7F;
+}

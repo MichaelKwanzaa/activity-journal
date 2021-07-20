@@ -1,0 +1,43 @@
+.sidebar{
+    flex: 1;
+    background-color: rgb(230, 230, 230);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.sidebarContainer{
+    padding: 30px;
+    color: #444;
+}
+
+.sidebarMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menuItem{
+    text-decoration: none;
+    color: inherit;
+    padding: 5px 8px;
+    border: 1px solid #777;
+    border-radius: 10px;
+    width:100%;
+    margin-top: 10px;
+}
+
+.menuItem:hover{
+    background-color:lightslategrey;
+    color: white;
+
+}
+
+.copyright{
+    margin-top: 150px;
+    text-align: center;
+}

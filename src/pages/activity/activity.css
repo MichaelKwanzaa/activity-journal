@@ -1,0 +1,33 @@
+.activity{
+    flex: 4;
+}
+
+.activityWrapper{
+    padding: 30px;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.addNewActivity{
+    padding: 5px 8px;
+    border: 1px solid darkmagenta;
+    color: darkmagenta;
+    cursor: pointer;
+}
+
+.addNewActivity:hover{
+    background-color: darkmagenta;
+    color: white;
+
+}
+
+.activities{
+    display: flex;
+    flex-wrap: wrap;
+}
+

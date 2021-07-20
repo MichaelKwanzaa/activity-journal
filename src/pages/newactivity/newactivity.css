@@ -1,0 +1,58 @@
+.newActivity{
+    flex: 4;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+
+}
+
+.newActivityContainer{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.newActivityTitle{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form > input {
+    margin-top: 30px;
+    width: 200px;
+    padding: 8px 12px;
+}
+
+.form > input:focus{
+    outline: none;
+}
+
+.form > input.newDate{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form > label {
+    margin-top: 20px;
+}
+
+.form > button{
+    padding: 15px 21px;
+    border: 1px solid darkmagenta;
+    color: darkmagenta;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+
+.form > button:hover{
+    background-color: darkmagenta;
+    color: #fff;
+}
